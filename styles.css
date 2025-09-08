@@ -32,14 +32,18 @@ body {
 
 .logo {
   display: flex;
-  align-items: center;
-  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
   margin-bottom: 2rem;
 }
 
 .logo img {
-  width: 40px;
-  height: 40px;
+  width: 350px;      /* Adjust width as needed to match headline size */
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-top: 0;
+  margin-left: 0;
 }
 
 .logo span {
