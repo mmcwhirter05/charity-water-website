@@ -1,0 +1,117 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  color: #1a365d;
+}
+
+/* Main Container */
+.container {
+  display: flex;
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff5d7; /* Light yellow background */
+}
+
+/* Left Content Area */
+.content {
+  flex: 1;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.logo span {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #1a365d;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  color: #1a365d;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  color: #333;
+  max-width: 400px;
+}
+
+/* Call-to-Action Button */
+.cta-button {
+  display: inline-block;
+  text-align: center;
+  background-color: #1a365d;
+  color: white;
+  padding: 1.5rem 2rem;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+  width: 160px;
+  height: 160px;
+  line-height: 1.4;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #0d2147;
+}
+
+/* Right Image Section */
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .image-section img {
+    max-height: 400px;
+  }
+
+  .cta-button {
+    margin: 0 auto;
+    width: 140px;
+    height: 140px;
+    padding: 1rem;
+  }
+}
