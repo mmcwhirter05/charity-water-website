@@ -77,7 +77,7 @@ h1 {
   align-items: center;
   text-align: center;
   background-color: #1a365d;
-  color: white;
+  color: #fff5d7; /* Set text color to yellow */
   padding: 1.5rem 2rem;
   border-radius: 50%;
   font-weight: bold;
