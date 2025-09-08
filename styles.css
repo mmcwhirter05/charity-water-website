@@ -59,6 +59,7 @@ h1 {
   margin-top: 10rem;
   margin-bottom: 1.5rem;
   color: #1a365d;
+  font-weight: normal; /* Ensure heading is not bold */
 }
 
 .description {
@@ -67,6 +68,7 @@ h1 {
   margin-bottom: 2rem;
   color: #333;
   max-width: 400px;
+  font-weight: normal; /* Ensure description is not bold */
 }
 
 /* Call-to-Action Button */
@@ -80,7 +82,7 @@ h1 {
   color: #fff5d7; /* Set text color to yellow */
   padding: 1.5rem 2rem;
   border-radius: 50%;
-  font-weight: bold;
+  font-weight: normal; /* Make button text not bold */
   font-size: 0.95rem; /* Smaller font size */
   text-decoration: none;
   width: 160px;
