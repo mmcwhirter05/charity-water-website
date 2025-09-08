@@ -31,10 +31,10 @@ body {
 }
 
 .logo {
-  position: absolute;
-  top: 2rem;
-  left: 2rem;
-  z-index: 10;
+  position: fixed;   /* Pin to viewport */
+  top: 1rem;
+  left: 1rem;
+  z-index: 1000;
   margin-bottom: 0;
 }
 
