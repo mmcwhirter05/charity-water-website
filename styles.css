@@ -31,20 +31,31 @@ body {
 }
 
 .logo {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  margin-bottom: 2rem;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  z-index: 10;
+  margin-bottom: 0;
 }
 
 .logo img {
-  width: 350px;      /* Adjust width as needed to match headline size */
+  width: 350px;
   max-width: 100%;
   height: auto;
   object-fit: contain;
-  margin-top: 0;
-  margin-left: 0;
+  margin: 0;
 }
+
+/* Add this to the container to allow absolute positioning */
+.container {
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff5d7;
+}
+
 
 .logo span {
   font-size: 1.5rem;
